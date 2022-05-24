@@ -1,0 +1,40 @@
+Course 6 - Sprint 7: Create Banking Application (IDBC Bank) with
+MYSQL and JDBC API
+Problem Statement: C6S7PR1 – IDBC Bank (Mini Project)
+Today, ‘Life at your Doorstep’ has become a way of life. Performing routine tasks
+has become quite simple as many companies have started providing services
+online. Groceries, medicines, clothes and other everyday essentials, all get
+delivered at home. A doctor’s consultation, teaching sessions, and many other
+services are also provided online.
+Banking services are also majorly online, but to open a bank account, one has to
+visit the bank in person. Many global banks have ventured into the new era of
+banking. They allow their customers to open their bank account from the comfort
+of their homes. IDBC bank is now providing the facility of opening an account
+onto its online platform. They provide this service to individuals who are more
+than 18 years of age. However, not all types of accounts can be opened online.
+There are two types of accounts that are provided.
+Save Account – acts like a normal single owner savings bank account
+Pay Account – to make bill payments, do online shopping and more
+The software team at IDBC Bank needs to build an application that will help
+customers to open the save and pay bank account.
+Features of the Bank accounts
+1. Save Account
+• Must have a 12 digit auto-generated account number
+• Interest is calculated on the available balance and credited into the
+account on yearly basis, the interest rate for customers is 2.5%
+ Formula to calculate interest:
+(total balance x interest rate) /100
+2. Pay Account
+• Must have a 12 digit auto-generated account number
+• No interest is calculated on the amount available in the account
+
+
+Note:
+Operations such as withdrawal, deposit (both cash and check), check balance,
+fund transfer etc., can be performed.
+Tasks
+1. Identify the entities and attributes to design the database tables.
+2. Ensure that appropriate constraints are applied on the tables designed.
+3. All the data for the bank operations such as balance check, withdrawal, etc.,
+must be read from the database.
+4. A log of transactions is maintained for each customer.
